@@ -1,0 +1,52 @@
+.brands{
+    width: 100%;
+    height: 404px;
+    background-color: #fafafa;
+}
+.brands-row{
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brands .card-item h3{
+    width: 258px;
+    height: 54px;
+    color:#fff;
+    font-family:var(--Monserrat);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: left;
+
+}
+.brands .card-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px 50px;
+    background-color: #16697A;
+}
+.form-brand input{
+    width: 450px;
+    height: 58px;
+    padding: 15px 20px;
+}
+.subscribe{
+    position: relative;
+    border-radius:5px;
+}
+.form-brand a{
+    padding: 20px 22px;
+    color:#fff;
+    right:0px;
+    top:0px;
+    width: 117px;
+    height: 58px;
+    background-color: #FFA62B;
+    position: absolute;
+}
